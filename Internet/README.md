@@ -39,22 +39,34 @@
 
 출처 : https://developer.mozilla.org/ko/docs/Learn/Common_questions/How_does_the_Internet_work
 
+---
+
 ### 웹 작동 원리
 
 
+---
 
 ## HTTP와 HTTPS
 
+---
 
 ## 브라우저와 동작 원리
+
+---
 
 
 ## DNS아 작동원리
 
+---
+
 
 ## 도메인 네임
 
+---
+
 
 ## 호스팅
+
+---
 
 
