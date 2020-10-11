@@ -79,13 +79,16 @@
 
 DNS는 브라우저에 입력하는 웹주소 (ex. google.com)을 웹사이트의 실제(IP) 주소에 맞춰주는 특별한 서버.
 
-[IP Checker](https://ipinfo.info/html/ip_checker.php) 등을 통해서 도메인을 체크할 수 있다.
+IP 확인하는 방법
+- [IP Checker](https://ipinfo.info/html/ip_checker.php) 등을 통해서 도메인을 체크할 수 있다.
+- Shell에서  `whois {DNS}` 입력해서 정보 받아오기.
+
 
 ### 패킷 설명
 
 기본적으로, 데이터가 웹을 거쳐서 전송될 때, 수천개의 작은 덩어리들로 전송됩니다. 그래서 다양한 웹 사용자들은 동시에 같은 웹 사이트를 다운로드 할 수 있게 됩니다.
 
-만약 웹 사이트가 하나의 큰 덩어리들로 전송된다면, 오직 한 번에 하나의 사용자만 다운로드 할 수 있을 것입니다. 이는 분명 웹을 매우 비효율적이고, 사용하기 불현하게 될 것입니다.
+만약 웹 사이트가 하나의 큰 덩어리들로 전송된다면, 오직 한 번에 하나의 사용자만 다운로드 할 수 있을 것이다. 이는 웹을 매우 비효율적이고, 사용하기 불편하게 만든다.
 
 출처 : https://developer.mozilla.org/ko/docs/Learn/Getting_started_with_the_web/%EC%9B%B9%EC%9D%98_%EB%8F%99%EC%9E%91_%EB%B0%A9%EC%8B%9D
 
