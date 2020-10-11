@@ -96,6 +96,14 @@ IP 확인하는 방법
 
 ## HTTP와 HTTPS
 
+볼 자료.
+
+- [HTTP - basic introduction](https://dev.opera.com/articles/http-basic-introduction/)
+- [HTTP - Let's GET IT On!](https://dev.opera.com/articles/http-lets-get-it-on/)
+- [HTTP - Response Codes](https://dev.opera.com/articles/http-response-codes/)
+
+
+
 ---
 
 ## 브라우저와 동작 원리
