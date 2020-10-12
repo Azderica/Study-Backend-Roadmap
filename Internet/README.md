@@ -140,7 +140,28 @@ IP 확인하는 방법
 ---
 
 
-## DNS아 작동원리
+## DNS의 작동원리
+
+### Domain 구조
+
+
+### DNS 서비스 유형
+
+
+### DNS 동작 원리
+
+![DNS 동작 원리](https://user-images.githubusercontent.com/42582516/95796986-4822ea00-0d29-11eb-955d-07ffe6b426ee.png)
+
+이 순서를 정리하려면 다음과 같다.
+
+1. 웹 브라우저에 www.naver.com을 입력하면 먼저 Local DNS에게 "www.naver.com"이라는 hostname"에 대한 IP 주소를 질의하여  Local DNS에 없으면 다른 DNS name 서버 정보를 받음(Root DNS 정보 전달 받음)
+2. Root DNS 서버에 "www.naver.com" 질의
+3. Root DNS 서버로 부터 "com 도메인"을 관리하는 TLD (Top-Level Domain) 이름 서버 정보 전달 받음
+4. TLD에 "www.naver.com" 질의
+5. TLD에서 "name.com" 관리하는 DNS 정보 전달
+6. "naver.com" 도메인을 관리하는 DNS 서버에 "www.naver.com" 호스트네임에 대한 IP 주소 질의
+7. Local DNS 서버에게 "응! www.naver.com에 대한 IP 주소는 222.122.195.6 응답 
+8. Local DNS는 www.naver.com에 대한 IP 주소를 캐싱을 하고 IP 주소 정보 전\
 
 ---
 
