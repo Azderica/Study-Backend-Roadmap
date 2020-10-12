@@ -144,6 +144,14 @@ IP 확인하는 방법
 
 ### Domain 구조
 
+- 인터넷상에서 사용되는 도메인은 전 세계적으로 고유하게 존재하는 이름
+- 정해진 규칙 및 체계에 따라야 하며, 임의로 변경되거나 생성될 수 없음.
+- 인터넷상의 모든 도메인은 ".(dot)" 또는 루트(root)라 불리는 도메인 아래에 그림과 같이 나무를 거꾸로 위치시킨 역트리(Inverted tree)구조로 계층적으로 구성되어 있음
+- 루트 도메인 바로 아래의 단계를 1단계 도메인 또는 최상위도메인(TLD, Top Level Doamin)이라고 부르며, 그 다음 단계를 2단계 도메인, 차상위도메인(SLD, Second Level Domailn)이라고 함
+- 도메인은 일반최상위도메인(gTLD: Generic Top Level Domain)과 국가최상위도메인(ccTLD: Country Code Top Level Domain)로 구분할 수 있으며 여기서 일반최상위도메인은 다시 스폰서도메인(Sponsored TLD)과 언스폰서도메인(Unsponsored TLD)으로 구분됩니다.
+
+![image](https://user-images.githubusercontent.com/42582516/95797353-4b6aa580-0d2a-11eb-9d14-ea3c4dd6abb9.png)
+
 
 ### DNS 서비스 유형
 
